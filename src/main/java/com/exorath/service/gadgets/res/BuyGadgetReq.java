@@ -16,7 +16,7 @@ public class BuyGadgetReq extends GadgetLong{
 
     public BuyGadgetReq() {}
 
-    public BuyGadgetReq(String type, String id, long created, String owner, JsonObject meta) {
-        super(type, id, created, owner, meta);
+    public BuyGadgetReq(String type, String id, String owner, JsonObject meta) {
+        super(type, id, owner, meta);
     }
 }

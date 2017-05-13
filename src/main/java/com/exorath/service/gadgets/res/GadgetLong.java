@@ -23,6 +23,19 @@ public class GadgetLong {
         this.meta = meta;
     }
 
+    public GadgetLong(String type, String id, String owner, JsonObject meta) {
+        this.type = type;
+        this.id = id;
+        this.owner = owner;
+        this.meta = meta;
+        setCreated(System.currentTimeMillis());
+    }
+
+    public GadgetLong setCreated(long created) {
+        this.created = created;
+        return this;
+    }
+
     public String getType() {
         return type;
     }

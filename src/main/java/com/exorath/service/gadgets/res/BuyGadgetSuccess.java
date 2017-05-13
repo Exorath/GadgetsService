@@ -13,7 +13,6 @@ public class BuyGadgetSuccess extends Success{
 
     public BuyGadgetSuccess(Integer code, String error) {
         super(code, error);
-        this.uuid = uuid;
     }
 
     public String getUuid() {
