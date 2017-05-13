@@ -5,6 +5,7 @@ package com.exorath.service.gadgets.res;
  */
 public class BuyGadgetSuccess extends Success{
     private String uuid;
+
     public BuyGadgetSuccess(String uuid) {
         super(true);
         this.uuid = uuid;
